@@ -4,8 +4,8 @@ import tensorflow as tf
 from tensorflow import keras
 from keras import layers
 
-load_file = "updatedModel1.keras"
-best_save = "test_model1.keras"
+load_file = "models/updatedModel1.keras"
+best_save = "models/test_model1.keras"
 save_file = ""
 
 env = gym.make("LunarLander-v2", render_mode="ansi")
