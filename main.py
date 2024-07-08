@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow import keras
 from keras import layers
 
-load_file = "updatedModel2.keras"
+load_file = "models/updatedModel2.keras"
 
 env = gym.make("LunarLander-v2", render_mode="human")
 observation, info = env.reset()
